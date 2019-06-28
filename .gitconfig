@@ -1,0 +1,20 @@
+[user]
+    name = Luiz Batanero
+    email = luizbatanero@gmail.com
+
+[core]
+    fileMode = false
+
+[push]
+    default = current
+
+[alias]
+    a = add
+    c = commit -am
+    p = push
+    s = status -s
+    pl = pull
+    co = checkout
+    cob = checkout -b
+    d = diff --color --color-words --abbrev
+    l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
