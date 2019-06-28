@@ -1,4 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
+export EDITOR=vim
 
 export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
