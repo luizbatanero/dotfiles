@@ -4,6 +4,7 @@
 
 [core]
     fileMode = false
+	autocrlf = false
 
 [push]
     default = current
