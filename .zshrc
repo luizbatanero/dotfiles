@@ -30,7 +30,7 @@ SPACESHIP_USER_SHOW=always
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_CHAR_SUFFIX=" "
 
-bindkey '^ ' autosuggest-accept
+bindkey '^\ ' autosuggest-accept
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
