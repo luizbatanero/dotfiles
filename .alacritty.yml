@@ -1,3 +1,7 @@
+key_bindings:
+  - { key: Right, mods: Alt, chars: "\x1BF" }
+  - { key: Left,  mods: Alt, chars: "\x1BB" }
+
 items:
   - colors:
       name: 3024 (dark)
@@ -58,7 +62,7 @@ window:
   padding:
     x: 15
     y: 15
-  startup_mode: SimpleFullscreen
+  startup_mode: SimpleFullScreen
   opacity: 0.95
 
 font:
