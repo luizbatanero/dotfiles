@@ -14,7 +14,7 @@ alias cp="cp -v"
 alias g="git"
 
 # vim
-alias v="vim"
+alias v="nvim"
 
 # tmux
 alias t="tmux"

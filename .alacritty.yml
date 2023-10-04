@@ -60,10 +60,10 @@ theme: Gruvbox-Dark
 
 window:
   padding:
-    x: 15
-    y: 15
-  startup_mode: SimpleFullScreen
-  opacity: 0.95
+    x: 10
+    y: 10
+  startup_mode: Maximized
+  decorations: none
 
 font:
   normal:

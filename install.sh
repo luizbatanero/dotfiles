@@ -89,3 +89,11 @@ if [ ! -d "$HOME/z" ]; then
 else
     print_info "z folder already exists"
 fi
+
+# install tpm
+if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
+    git clone --quiet https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+    print_success "tpm installed"
+else
+    print_info "tpm folder already exists"
+fi
