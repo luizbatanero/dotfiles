@@ -1,0 +1,13 @@
+add_newline=false
+format = "$directory$git_branch$git_status$cmd_duration\n$character"
+
+[character]
+success_symbol = '[➜](green)'
+error_symbol = '[➜](red)'
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[cmd_duration]
+format = '[$duration]($style) '
+style = 'dimmed'
